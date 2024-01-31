@@ -84,22 +84,22 @@
         </x-counter>
     </div>
     <div class="flex px-77 space-x-8">
-        <livewire:card
+        <livewire:card image="{{ asset('/assets/card/card.jpeg') }}"
             title="Lorem ipsum dolor sit amet, consectetur"
             date="03 Jan 2024"
             content="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur debitis eligendi nam, nihil nulla quas?"
         />
-        <livewire:card
+        <livewire:card image="{{ asset('/assets/card/card2.jpg') }}"
             title="Lorem ipsum dolor sit amet, consectetur"
             date="03 Jan 2024"
             content="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur debitis eligendi nam, nihil nulla quas?"
         />
-        <livewire:card
+        <livewire:card image="{{ asset('/assets/card/card3.jpg') }}"
             title="Lorem ipsum dolor sit amet, consectetur"
             date="03 Jan 2024"
             content="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur debitis eligendi nam, nihil nulla quas?"
         />
-        <livewire:card
+        <livewire:card image="{{ asset('/assets/card/card.jpeg') }}"
             title="Lorem ipsum dolor sit amet, consectetur"
             date="03 Jan 2024"
             content="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur debitis eligendi nam, nihil nulla quas?"
